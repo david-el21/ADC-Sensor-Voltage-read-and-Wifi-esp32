@@ -1,15 +1,19 @@
 # _Sample project_
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+# ADC1 + WiFi + Buton
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+Citește valoarea unui potențiometru conectat pe ADC1 Channel 4 (GPIO5), afișează valoarea doar când se apasă butonul, și aprinde un LED ca feedback.
 
+## Fișiere
+- `adc_config.c/.h` – inițializarea ADC
+- `gpio_config.c/.h` – inițializare LED și buton
+- `main.c` – logica principală
 
-
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## Exemplu de utilizare
+```c
+configure_BUTTON_input(BUTTON_GPIO);
+configure_LED_output(LED_GPIO);
+configure_adc(&adc_handle, ADC_CHANNEL_4);
 
 ## Example folder contents
 
