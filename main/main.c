@@ -8,8 +8,8 @@
 #include "ws2812_control.h"
 
 //  WIFI - SETTINGS
-#define SSID "myssid"
-#define PASSWORD "mypassword"
+#define SSID "INC3"
+#define PASSWORD "cyber3INC"
 //  WiFi will be used to connect to the network and send data.
 
 
@@ -20,7 +20,6 @@
 
 // Declaram functia wifi_connect care va fi folosita pentru a conecta ESP32 la WiFi
 void wifi_connect(const char *ssid, const char *password);
-
 
 void app_main(void)
 {    
