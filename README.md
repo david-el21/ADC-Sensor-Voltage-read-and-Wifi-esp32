@@ -1,9 +1,10 @@
-# _Sample project_
+# ADC1 + WiFi + Buton
+
 
 ## ESP-IDF v6.0.0 
 ## Builded and flashed on MAC OS
 
-# ADC1 + WiFi + Buton
+
 
 Citește valoarea unui potențiometru conectat pe ADC1 Channel 4 (GPIO5), afișează valoarea doar când se apasă butonul, și aprinde un LED ca feedback.
 
