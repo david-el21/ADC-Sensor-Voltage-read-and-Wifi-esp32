@@ -8,8 +8,8 @@
 #include "ws2812_control.h"
 
 //  WIFI - SETTINGS
-#define SSID "INC3"
-#define PASSWORD "cyber3INC"
+#define SSID "myssid"
+#define PASSWORD "mypassword"
 //  WiFi will be used to connect to the network and send data.
 
 
