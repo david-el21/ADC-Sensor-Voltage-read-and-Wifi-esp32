@@ -59,8 +59,8 @@ float voltage = (raw / 4095.0) * 3300;
 - Conectare automată la:
 
 ```c
-#define SSID "TPLinkF"
-#define PASSWORD "Florian_5/120580"
+#define SSID "myssid"
+#define PASSWORD "mypassword"
 ```
 
 ### 🌈 WS2812 (opțional)
